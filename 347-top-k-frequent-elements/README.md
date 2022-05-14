@@ -20,3 +20,17 @@
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Your algorithm's time complexity must be better than <code>O(n log n)</code>, where n is the array's size.</p>
 </div>
+
+<h3>Notes:</h3>	
+
+
+<ul>
+	<li>Create a frequency so you can see how many occurences of each element exist! Once you know that, you know the array is bounded by the length of input</li>
+	<li>Given the bounds create an array of arrays of MAX array length size</li>
+	<li>Iterate through map and add each number to the index of the occurences!</li>
+	<li>Iterate through sub arrays until you reach the length - will still be linear!</li>
+	<li><code>freq = [[] for i in range(len(nums) + 1)]</code> is how to create sub arrays.</li>
+
+</ul>
+
+
