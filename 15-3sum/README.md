@@ -21,3 +21,17 @@
 	<li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 </div>
+
+
+
+<h3>Notes:</h3>	
+
+
+<ul>
+	<li>Modified 2sum problem</li>
+	<li>Need to sort to calculate</li>
+	<li>REMEMBER: don:t push duplicates - need condition to check that current number is not the same as previous</li>
+	<li>Once you get a sum you still don't want duplicates so need to keep shifting! </li>
+	
+
+</ul>
