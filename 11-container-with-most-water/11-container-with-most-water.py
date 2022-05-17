@@ -10,8 +10,6 @@ class Solution:
             elif height[r] <= height[l]:
                 r -= 1
         return res
-            
-        
         
         
         
