@@ -33,3 +33,17 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 	<li><code>s</code> consists only of printable ASCII characters.</li>
 </ul>
 </div>
+
+
+<h3>Notes:</h3>	
+
+
+<ul>
+	<li>Filter through all of the non alphanumeric values <code>''.join(ch for ch in lower if ch.isalnum())</code> will do this for you</li>
+	<li>will only join the values that are <code>isalnum()</code></li>
+	<li>Reverse the string: <code>removeAlpha[::-1] == removeAlpha</code> Here we see that <code>[::-1]</code> reverses the string</li>
+	
+
+</ul>
+
+
