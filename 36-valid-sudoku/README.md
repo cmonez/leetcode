@@ -63,6 +63,7 @@
 	<li>Use <code>defaultdict with a set to initialize</code></li>
 	<li>After that iterate and check to see if the number is in the col, row, and square</li>
 	<li>GOTCHA: using <code>1 // 3</code> or <code>3 // 1</code> or <code>6 // 3</code> will ROUND DOWN! this leaves you with the 3 squares</li> 
+	<li>Default dict will create elements that don't already exist allowing you to use bracket notation</li> 
 	
 
 </ul>
