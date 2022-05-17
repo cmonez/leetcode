@@ -29,3 +29,19 @@
 	<li><code>0 &lt;= height[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 </div>
+
+
+
+
+
+<h3>Notes:</h3>	
+
+
+<ul>
+	<li>Calculate the area of the rectangle width * height where width is the diff of right and left and height is smaller</li>
+	<li>Move the value that is less! Makes sense because you want to capture most water</li>
+	<li>Two pointer solution</li>
+	
+	
+
+</ul>
