@@ -31,3 +31,16 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 	<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>
 </ul>
 </div>
+
+<h3>Notes:</h3>	
+
+
+<ul>
+	<li>Sliding windows problem</li>
+	<li>Need to keep track of the values that are CURRENTLY in the window - use a set!</li>
+	<li>What if you hit a value already in set? Remove from LEFT! Why? Don't know where first value occured</li>
+	<li>Calculate the distance and reset if bigger than current longest sub</li>
+	<li>USING a for and while loop</li>
+	
+
+</ul>
