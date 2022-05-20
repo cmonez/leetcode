@@ -15,3 +15,15 @@
 	<li><code>1 &lt;= n &lt;= 8</code></li>
 </ul>
 </div>
+
+
+<h3>Notes:</h3>	
+
+
+<ul>
+	<li>Stack and Backtracking</li>
+	<li>Realize that you need EQUAL AMOUNTS of closed and open parenthesis</li>
+	<li>In output notice you ALWAYS start with open. What does that mean?</li>
+	<li>Since you always start with open having more closed than open is invalid</li>
+	
+</ul>
