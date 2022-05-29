@@ -34,3 +34,14 @@
 	<li><code>1 &lt;= piles[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 </div>
+
+
+<h3>Notes:</h3>	
+
+<ul>
+	<li>BINARY SEARCH</li>
+	<li>Want to divide by the max bananas you can eat and round **up** - why? You can only eat X bananas - have to round up</li>
+	<li>Compare against the hours - find smaller</li>
+	<li>Adjust right or left based on if the hours is bigger or smaller</li>	
+
+</ul>
